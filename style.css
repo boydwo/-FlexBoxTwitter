@@ -1,0 +1,29 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  /* direção do flexbox
+  flex-direction: row;
+  /* alinha verticalmente */
+  /* align-items: center; */
+  /* alinha horizontalmente */
+  /* justify-content: space-around; */
+
+  /* quebra linha */
+  flex-wrap: wrap;
+  /* mais de uma linha quebrada */
+  align-content: flex-start;
+}
+.box {
+  width: 200px;
+  height: 60px;
+  background: #f00;
+  margin: 5px;
+  /* aumentar ou espremer se necessario
+  flex: 1 0; */
+}
